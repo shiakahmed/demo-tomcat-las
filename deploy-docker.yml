@@ -54,7 +54,7 @@
 
     - name: Start the container
       docker_container:
-        name: app1
+        name: app1c1webappc1
         image: "shiakahmed53/app1:latest"
         state: started
         published_ports:
